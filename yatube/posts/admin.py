@@ -9,10 +9,10 @@ list_display = (
         'author',
         'group',
     )
-    list_editable = ('group',)
-    search_fields = ('text',)
-    list_filter = ('pub_date',)
-    empty_value_display = '-пусто-'
+list_editable = ('group',)
+search_fields = ('text',)
+list_filter = ('pub_date',)
+empty_value_display = '-пусто-'
 
 
 class GroupAdmin(admin.ModelAdmin):
